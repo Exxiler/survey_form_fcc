@@ -16,8 +16,6 @@ A small project that showcases a survey using HTML and CSS.
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 - [Credits](#credits)
 - [Contact](#contact)
 
