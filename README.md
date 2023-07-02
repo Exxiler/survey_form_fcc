@@ -36,9 +36,6 @@ After downloading, simply edit the HTML and CSS files.
 The survey is interactable, but submitting doesn't work.
 
 ## File Structure
-
-Describe the organization of your project's files and folders. Explain the purpose of each file or folder.
-
      
     /
     |---/assets/img
