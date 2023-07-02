@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header section -->
+    <section>
+        <header>
+            <h1 id="title">Software Development Practices Survey</h1>
+            <p id="description">Thank you for participating in this 
+                survey about software development practices. 
+                Your feedback will help us understand current 
+                trends and challenges in the industry. Please answer 
+                the following questions to the best of your knowledge 
+                and experience.</p>
+        </header>
+    </section>
+    <!-- Header section -->
+    
+    <!-- Form section-->
+    <section>
+        <form id="survey-form">
+            <div class=".form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                <label id="number-label" for="number">Age (optional)</label>
+                <input type="number" id="number" name="age" min="1" max="125" placeholder="Age" required>
+            </div>
+            <div class=".form-group">
+                <label>Select your primary programming language</label>
+                <select id="dropdown">
+                    <option disabled selected value>Select an option</option>
+                    <option value="option 1">Java</option>
+                    <option value="option 2">Python</option>
+                    <option value="option 3">JavaScript</option>
+                    <option value="option 4">C / C++</option>
+                    <option value="option 5">C#</option>
+                    <option value="option 7">Ruby</option>
+                    <option value="option 8">Other</option>
+                </select>
+            </div>
+            <div class=".form-group">
+                    <p>How do you approach code reviews in your team?<p>
+                    <label><input type="radio" name="radio-buttons" value="radio 1">
+                        Formal code inspections with designated reviewers</label>
+                    <label><input type="radio" name="radio-buttons" value="radio 2">
+                        Informal code reviews among team members</label>
+                    <label><input type="radio" name="radio-buttons" value="radio 3">
+                        No code reviews conducted</label>
+            </div>
+            <div class=".form-group">    
+                    <label for="dropdown2">Which testing framework do you primarily use for unit testing?</label>
+                <select id="dropdown2">
+                    <option disabled selected value>Select an option</option>
+                    <option value="option 1">JUnit</option>
+                    <option value="option 2">pytest</option>
+                    <option value="option 3">Jasmine</option>
+                    <option value="option 4">Mocha</option>
+                    <option value="option 5">Other</option>
+                </select>
+            </div>
+            <div class=".form-group">
+                    <p>Which of the following software development methodologies do you regularly practice? <p>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 1">
+                        Waterfall</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 2">
+                        Agile</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 3">
+                        Scrum</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 4">
+                        Kanban</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 5">
+                        Extreme Programming (XP)</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 6">
+                        Lean Development</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 7">
+                        Feature Driven Development (FDD)</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 8">
+                        DevOps</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 9">
+                        Pair Programming</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 10">
+                        Test Driven Development (TDD)</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 11">
+                        None of the above</label>
+                    <label><input type="checkbox" name="checkbox-buttons" value="checkbox 12">
+                        Other</label>
+            </div>
+            <div class=".form-group">
+                    <label id="comments-label" for="comments">Comments</label>
+                <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+            </div>
+                <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+    <!-- Form section-->
+
+    <footer>
+        <p>&copy; </p>
+    </footer>
+</body>
+</html>
