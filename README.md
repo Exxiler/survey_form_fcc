@@ -8,7 +8,7 @@
 
 ## Description
 
-A small project that showcases a survey using HTML and CSS.
+A small project that showcases making a survey using HTML and CSS.
 
 ## Table of Contents
 
